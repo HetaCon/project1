@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #FBFBFB;
+}
+
+.menu ul{
+    list-style: none;
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.menu li{
+    display: inline;
+}
+
+li.logo img{
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+
+li.search-bar{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-left: 95px;
+    border: 2px solid #D1D1D1;
+    width: 623px;
+    background-color: white;
+}
+
+li.search-bar p{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 0px 4px 6px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+li.search-bar img{
+    height: 30px;
+    border-left: 2px solid #D1D1D1;
+    float: right;
+}
+
+li.profile img{
+    float: right;
+    height: 32px;
+    margin-top: 12px;
+    margin-right: 68px;
+}
+
+iframe{
+    display: inline-block;
+    margin-left: 252px;
+}
+
+video{
+    display: inline-block;
+    margin-left: 252px;
+}
+
+#next{
+    vertical-align: top;
+    margin-left: 8px;
+    display: inline-block;
+    width: 400px;
+    font-family: 'roboto';
+    font-size: 10px;
+}
+
+#next img{
+    float: left;
+    height: 75px;
+}
+
+#next h2{
+    line-height: 18px;
+    color: #333333;
+}
+
+#next h3{
+    margin-top: 2px;
+    color: #A69999;
+}
+
+#next #text{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+
+.description{
+    width: 675px;
+    margin-left: 252px;
+    margin-top: -5px;
+    padding: 15px 21px;
+    border: 2px solid #E7E7E7;
+    font-family: 'Roboto';
+    color: #202124;
+}
+
+.description #title{
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.description img{
+    height: 52px;
+}
+
+.description #artist{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.comment{
+    width: 681px;
+    padding: 17px 18px;
+    margin-left: 252px;
+    margin-bottom: 30px;
+    border: 2px solid #E7E7E7;
+    border-top: none;
+    font-family: 'Roboto';
+    color: #202124;
+}
+
+.comment hr{
+    border-top: 1px solid #E7E7E7;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment img{
+    float: left;
+    height: 52px;
+}
+
+.comment h3{
+    color: #686868;
+    font-size: 18px;
+}
+
+.comment .name{
+    margin-left: 12px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #4199E4;
+}
+
+.comment .text{
+    margin-left: 12px;
+    font-size: 13px;
+    color: #393939;
+}
+
+.comment .comment-text{
+    display: inline-block;
+    width: 90%;
+}
